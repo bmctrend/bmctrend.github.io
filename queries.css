@@ -1,58 +1,163 @@
-@media only screen and (max-width :500px){
-    .header .navbar ul{
-        display: block;
-        width: 100%;
-        transform: translateX(42%);
-        padding: 1rem 2rem 1.15rem;
-        justify-content: none;
+@media (min-width: 992px) and (max-width: 1024px){
+    .profilebox {
+        top: 10px;
+        width: 300px;
+        height: 350px;
+        background: #eee;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        margin: 0 1.9%;
       }
-    .header .navbar li {
-        font-size: 12px;
-        padding: 0.5rem 1rem 0.5rem;
-        margin: 2px -20px;
-    }
-    .usa { 
-        margin-top: -155px;
-        transform: translateX(5%);
-    }
-    
+      .profilebox1 {
+        background-image: url("https://bit.ly/2Ykpe1c");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+      .profilebox2 {
+        background-image: url("https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=606&q=80");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+      .profilebox3 {
+        background-image: url("/images/unitrenderspace_20200808_60.png");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+      .profilebox4 {
+        background-image: url("/images/modernluxdesign_20200808_37.png");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+      .profilebox5 {
+        background-image: url("/images/117188404_120902469710366_3515805870953869823_n.jpg");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+      .profilebox6 {
+        background-image: url("/images/93754798_1355187541359005_4047425988058352606_n.jpg");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
 }
+@media (min-width: 1024px) and (max-width: 1400px){
+    .profilebox {
+        top: 10px;
+        width: 300px;
+        height: 350px;
+        background: #eee;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        margin: 0 5%;
+    }
+    .profilebox1 {
+        background-image: url("https://bit.ly/2Ykpe1c");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+      .profilebox2 {
+        background-image: url("https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=606&q=80");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+      .profilebox3 {
+        background-image: url("/images/unitrenderspace_20200808_60.png");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+      .profilebox4 {
+        background-image: url("/images/modernluxdesign_20200808_37.png");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+      .profilebox5 {
+        background-image: url("/images/117188404_120902469710366_3515805870953869823_n.jpg");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+      .profilebox6 {
+        background-image: url("/images/93754798_1355187541359005_4047425988058352606_n.jpg");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+}
+@media (min-width: 1400px) and (max-width: 1920px){
+    .profilebox {
+        top: 10px;
+        width: 300px;
+        height: 350px;
+        background: #eee;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+        margin-left: 12%;
+    }
 
-@media only screen and (max-width :1023px){
-    .header .navbar ul{
-        display: block;
-        width: 100%;
-        transform: translateX(35%);
-        padding: 1rem 2rem 1.15rem;
-        justify-content: none;
+    .profilebox1 {
+        background-image: url("https://bit.ly/2Ykpe1c");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
       }
-    .header .navbar li {
-        font-size: 12px;
-        padding: 0.5rem 1rem 0.5rem;
-        margin: 2px -20px;
-    }
-    .usa { 
-        margin-top: -155px;
-        transform: translateX(5%);
-    }
-    /*.cta .cta-btn {
-        transform: translateX(185%);
-    }*/
-}
-@media only screen and (max-width :1200){
-       .header .navbar ul{
-        display: flex;
-        width: 100%;
-        transform: translateX(35%);
-        padding: 1rem 2rem 1.15rem;
-        justify-content: none;
+      .profilebox2 {
+        background-image: url("https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=606&q=80");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
       }
-    .header .navbar li {
-        font-size: 12px;
-        padding: 0.5rem 1rem 0.5rem;
-        margin: 2px -20px;
+      .profilebox3 {
+        background-image: url("/images/unitrenderspace_20200808_60.png");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+      .profilebox4 {
+        background-image: url("/images/modernluxdesign_20200808_37.png");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+      .profilebox5 {
+        background-image: url("/images/117188404_120902469710366_3515805870953869823_n.jpg");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
+      .profilebox6 {
+        background-image: url("/images/93754798_1355187541359005_4047425988058352606_n.jpg");
+        background-position: center center;
+        background-size: cover;
+        perspective: 450px;
+        position: relative;
+      }
     }
-    .usa { 
-        margin-top: -155px;
-        transform: translateX(2%);
-    }}
