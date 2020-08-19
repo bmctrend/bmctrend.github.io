@@ -1,8 +1,8 @@
-@media only screen and (max-width: 480px){
+@media only screen and (max-width :500px){
     .header .navbar ul{
         display: block;
         width: 100%;
-        transform: translateX(35%);
+        transform: translateX(42%);
         padding: 1rem 2rem 1.15rem;
         justify-content: none;
       }
@@ -13,11 +13,12 @@
     }
     .usa { 
         margin-top: -155px;
-        transform: translateX(2%);
+        transform: translateX(5%);
     }
+    
 }
 
-@media only screen and (max-width :767px){
+@media only screen and (max-width :1023px){
     .header .navbar ul{
         display: block;
         width: 100%;
@@ -32,30 +33,15 @@
     }
     .usa { 
         margin-top: -155px;
-        transform: translateX(2%);
+        transform: translateX(5%);
     }
-}
-@media only screen and (max-width :1023){
-    .header .navbar ul{
-        display: block;
-        width: 100%;
-        transform: translateX(35%);
-        padding: 1rem 2rem 1.15rem;
-        justify-content: none;
-      }
-    .header .navbar li {
-        font-size: 12px;
-        padding: 0.5rem 1rem 0.5rem;
-        margin: 2px -20px;
-    }
-    .usa { 
-        margin-top: -155px;
-        transform: translateX(2%);
-    }
+    /*.cta .cta-btn {
+        transform: translateX(185%);
+    }*/
 }
 @media only screen and (max-width :1200){
        .header .navbar ul{
-        display: block;
+        display: flex;
         width: 100%;
         transform: translateX(35%);
         padding: 1rem 2rem 1.15rem;

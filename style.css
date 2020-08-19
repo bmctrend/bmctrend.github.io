@@ -34,7 +34,7 @@ body {
     max-width: 100%;
     justify-content: space-between;
     text-align: center;
-    transform: translateX(5%);
+    transform: translateX(7%);
     padding: 1rem 2rem 1.15rem;
   }
   .header .navbar li {
@@ -213,14 +213,15 @@ body {
 
 .profilebox {
       top: 10px;
-      width: 300px;
       height: 350px;
+      width: 300px;
       background: #eee;
       cursor: pointer;
       position: relative;
       display: inline-block;
-      margin: 1% 2%;
+      margin: 1% 3%;
       left: 8%;
+      
     }
 .profilebox1 {
       background-image: url("img/eng.autocad.cursos_20200808_16.png");
@@ -339,7 +340,7 @@ body {
     
     .cta .cta-btn {
       font-family: "Raleway", sans-serif;
-      transform: translateX(310%);
+      margin: auto 40%;
       font-weight: 600;
       font-size: 16px;
       letter-spacing: 1px;
