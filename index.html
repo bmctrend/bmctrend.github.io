@@ -1,10 +1,4 @@
 <!doctype html>
-<!--
-	Fox by FreeHTML5.co
-	Twitter: https://twitter.com/fh5co
-	Facebook: https://fb.com/fh5co
-	URL: https://freehtml5.co
--->
 <html lang="en">
 <head>
   <!-- Required meta tags -->
@@ -181,7 +175,34 @@
 
 <!-- Optional JavaScript --> 
 <!-- jQuery first, then Bootstrap JS, ... -->
+<div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v7.0'
+        });
+      };
 
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <div id="progressbar"></div>
+    <script src="http://code.jquery.com/jquery-3.4.4.js"></script>
+    <script type="text/javascript">
+        $(window).scroll(function(){
+          var scroll = $(window).scrollTop(),
+          dh = $(document).height(),
+          wh = $(window).height();
+          scrollPercent = (scroll / (dh-wh)) *100;
+          $('#progressbar').css('height' , scrollPercent + '%')
+        })
+    </script>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/parallax.js"></script>
