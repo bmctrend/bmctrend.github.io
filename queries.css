@@ -1,163 +1,24 @@
-@media (min-width: 992px) and (max-width: 1024px){
-    .profilebox {
-        top: 10px;
-        width: 300px;
-        height: 350px;
-        background: #eee;
-        cursor: pointer;
-        position: relative;
-        display: inline-block;
-        margin: 0 1.9%;
-      }
-      .profilebox1 {
-        background-image: url("https://ik.imagekit.io/amac/eng.autocad.cursos_20200808_16_PujbkdIvlr3P.png");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox2 {
-        background-image: url("https://ik.imagekit.io/amac/photo-1527030280862-64139fba04ca_xiG4z6AAxp4.jpg");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox3 {
-        background-image: url("https://ik.imagekit.io/amac/unitrenderspace_20200808_60_vv5c15K_JvPr.png");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox4 {
-        background-image: url("https://ik.imagekit.io/amac/modernluxdesign_20200808_37_3ffnsaCni6_.png");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox5 {
-        background-image: url("https://ik.imagekit.io/amac/117188404_120902469710366_3515805870953869823_n_qJzGHX_IERh6.jpg");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox6 {
-        background-image: url("https://ik.imagekit.io/amac/93754798_1355187541359005_4047425988058352606_n_u4MqDk6h5h51.jpg");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
+@media (min-width:992px) and (max-width:1024px){.profilebox{top:10px;width:300px;height:350px;background:#eee;cursor:pointer;position:relative;display:inline-block;margin:0 1.9%;}
+.profilebox1{background-image:url("https://ik.imagekit.io/amac/eng.autocad.cursos_20200808_16_PujbkdIvlr3P.png");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox2{background-image:url("https://ik.imagekit.io/amac/photo-1527030280862-64139fba04ca_xiG4z6AAxp4.jpg");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox3{background-image:url("https://ik.imagekit.io/amac/unitrenderspace_20200808_60_vv5c15K_JvPr.png");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox4{background-image:url("https://ik.imagekit.io/amac/modernluxdesign_20200808_37_3ffnsaCni6_.png");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox5{background-image:url("https://ik.imagekit.io/amac/117188404_120902469710366_3515805870953869823_n_qJzGHX_IERh6.jpg");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox6{background-image:url("https://ik.imagekit.io/amac/93754798_1355187541359005_4047425988058352606_n_u4MqDk6h5h51.jpg");background-position:center center;background-size:cover;perspective:450px;position:relative;}
 }
-@media (min-width: 1024px) and (max-width: 1400px){
-    .profilebox {
-        top: 10px;
-        width: 300px;
-        height: 350px;
-        background: #eee;
-        cursor: pointer;
-        position: relative;
-        display: inline-block;
-        margin: 0 5%;
-    }
-    .profilebox1 {
-        background-image: url("https://ik.imagekit.io/amac/eng.autocad.cursos_20200808_16_PujbkdIvlr3P.png");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox2 {
-        background-image: url("https://ik.imagekit.io/amac/photo-1527030280862-64139fba04ca_xiG4z6AAxp4.jpg");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox3 {
-        background-image: url("https://ik.imagekit.io/amac/unitrenderspace_20200808_60_vv5c15K_JvPr.png");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox4 {
-        background-image: url("https://ik.imagekit.io/amac/modernluxdesign_20200808_37_3ffnsaCni6_.png");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox5 {
-        background-image: url("https://ik.imagekit.io/amac/117188404_120902469710366_3515805870953869823_n_qJzGHX_IERh6.jpg");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox6 {
-        background-image: url("https://ik.imagekit.io/amac/93754798_1355187541359005_4047425988058352606_n_u4MqDk6h5h51.jpg");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
+@media (min-width:1024px) and (max-width:1400px){.profilebox{top:10px;width:300px;height:350px;background:#eee;cursor:pointer;position:relative;display:inline-block;margin:0 5%;}
+.profilebox1{background-image:url("https://ik.imagekit.io/amac/eng.autocad.cursos_20200808_16_PujbkdIvlr3P.png");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox2{background-image:url("https://ik.imagekit.io/amac/photo-1527030280862-64139fba04ca_xiG4z6AAxp4.jpg");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox3{background-image:url("https://ik.imagekit.io/amac/unitrenderspace_20200808_60_vv5c15K_JvPr.png");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox4{background-image:url("https://ik.imagekit.io/amac/modernluxdesign_20200808_37_3ffnsaCni6_.png");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox5{background-image:url("https://ik.imagekit.io/amac/117188404_120902469710366_3515805870953869823_n_qJzGHX_IERh6.jpg");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox6{background-image:url("https://ik.imagekit.io/amac/93754798_1355187541359005_4047425988058352606_n_u4MqDk6h5h51.jpg");background-position:center center;background-size:cover;perspective:450px;position:relative;}
 }
-@media (min-width: 1400px) and (max-width: 1920px){
-    .profilebox {
-        top: 10px;
-        width: 300px;
-        height: 350px;
-        background: #eee;
-        cursor: pointer;
-        position: relative;
-        display: inline-block;
-        margin-left: 12%;
-    }
-
-    .profilebox1 {
-        background-image: url("https://ik.imagekit.io/amac/eng.autocad.cursos_20200808_16_PujbkdIvlr3P.png");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox2 {
-        background-image: url("https://ik.imagekit.io/amac/photo-1527030280862-64139fba04ca_xiG4z6AAxp4.jpg");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox3 {
-        background-image: url("https://ik.imagekit.io/amac/unitrenderspace_20200808_60_vv5c15K_JvPr.png");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox4 {
-        background-image: url("https://ik.imagekit.io/amac/modernluxdesign_20200808_37_3ffnsaCni6_.png");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox5 {
-        background-image: url("https://ik.imagekit.io/amac/117188404_120902469710366_3515805870953869823_n_qJzGHX_IERh6.jpg");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-      .profilebox6 {
-        background-image: url("https://ik.imagekit.io/amac/93754798_1355187541359005_4047425988058352606_n_u4MqDk6h5h51.jpg");
-        background-position: center center;
-        background-size: cover;
-        perspective: 450px;
-        position: relative;
-      }
-    }
+@media (min-width:1400px) and (max-width:1920px){.profilebox{top:10px;width:300px;height:350px;background:#eee;cursor:pointer;position:relative;display:inline-block;margin-left:12%;}
+.profilebox1{background-image:url("https://ik.imagekit.io/amac/eng.autocad.cursos_20200808_16_PujbkdIvlr3P.png");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox2{background-image:url("https://ik.imagekit.io/amac/photo-1527030280862-64139fba04ca_xiG4z6AAxp4.jpg");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox3{background-image:url("https://ik.imagekit.io/amac/unitrenderspace_20200808_60_vv5c15K_JvPr.png");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox4{background-image:url("https://ik.imagekit.io/amac/modernluxdesign_20200808_37_3ffnsaCni6_.png");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox5{background-image:url("https://ik.imagekit.io/amac/117188404_120902469710366_3515805870953869823_n_qJzGHX_IERh6.jpg");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+.profilebox6{background-image:url("https://ik.imagekit.io/amac/93754798_1355187541359005_4047425988058352606_n_u4MqDk6h5h51.jpg");background-position:center center;background-size:cover;perspective:450px;position:relative;}
+}
