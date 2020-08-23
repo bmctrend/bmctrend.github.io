@@ -353,8 +353,6 @@
   });
 
 
-  // Parallax Plugin Definition
-
   function Plugin(option) {
     return this.each(function () {
       var $this = $(this);
